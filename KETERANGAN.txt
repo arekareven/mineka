@@ -1,0 +1,5 @@
+- Tampilan data lama dan data baru sudah dipisah
+- Edit Status pada data lama belum diatur
+- Data lama tidak bisa tambah data
+- Data baru tidak bisa import excel
+- Database lama dan baru sudah dipisah
