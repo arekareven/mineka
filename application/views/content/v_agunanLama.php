@@ -76,7 +76,7 @@
                                             echo "<tr>
                                                     <td><a href ='#' class ='on-default edit-row btn btn-primary' data-toggle='modal' title='Edit Data' data-target='#edit' onClick=\"EditData('".$row->id."','".$row->nomorAgunan."','".$row->nama."','".$row->alamat."','".$row->agunan."','".$row->detailAgunan."','".$row->realisasi."','".$row->lunas."','".$row->keterangan."','".$row->noHp."','".$row->ttd."')\"><i class ='glyphicon glyphicon-edit'></i></a>
                                                         <a href ='#' class ='on-default remove-row btn btn-danger' data-toggle='modal' title='Hapus Data' data-target='#hapus' onClick=\"HapusData('".$row->id."','".$row->nomorAgunan."','".$row->nama."','".$row->alamat."','".$row->agunan."','".$row->detailAgunan."','".$row->realisasi."','".$row->lunas."','".$row->keterangan."','".$row->noHp."','".$row->ttd."')\"><i class ='glyphicon glyphicon-trash'></i></a>
-                                                        <a href ='TemplateWord2?id=".$row->id."' class ='btn btn-pink waves-effect waves-light' title='Surat'>Surat</a>
+                                                        <a href ='TemplateWordLama?id=".$row->id."' class ='btn btn-pink waves-effect waves-light' title='Surat'>Surat</a>
                                                     </td>
                                                     <td>".$row->id."</td>
                                                     <td>".$row->nomorAgunan."</td>

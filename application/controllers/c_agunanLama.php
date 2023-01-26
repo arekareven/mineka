@@ -71,7 +71,7 @@ class C_agunanLama extends CI_Controller {
 		}
 	}
 
-		public function tambah(){
+	public function tambah(){
         $id = $this->input->post('id');
 
         $query = $this->m_agunanLama->cek_no($id)->num_rows();
